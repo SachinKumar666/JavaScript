@@ -1,0 +1,218 @@
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/gilroy/Gilroy-Medium.ttf format');
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 30px 40px;
+    position: fixed;
+    width: 100%;
+}
+#nav h3{
+    background-color: black;
+    color: white;
+    border-radius: 80px;
+    cursor: pointer;
+    padding: 15px 25px;
+    margin-left: 5px;
+
+}
+
+#intro{
+    height: 40%;
+    width: 100%;
+    padding: 50px;
+}
+
+#intro h1{
+    font-size: 6vw;
+    line-height: 80px;
+    /* letter-spacing: -3px; */
+}
+
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#place h3, h4{
+    font-size: 2vw;
+    font-weight: 100;
+}
+
+
+#hero{
+    height:80%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1490730141103-6cac27aaab94?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+#about{
+    height: 65%;
+    width: 100%;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+
+}
+
+#about h2{
+    width: 62%;
+    height: 100%;
+    font-size: 6vw;
+    line-height: 85px;
+    font-weight: 500;
+    letter-spacing: -2px;
+}
+#about-part2{
+    width: 30%;
+    height: 100%;
+    padding: 0 30px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+#icons i{
+    background-color: black;
+    color: white;
+    padding: 7px;
+    font-size: 25px;
+    border-radius: 130px;
+    margin-right:10px ;
+    cursor: pointer;
+}
+
+#work{
+    height: 68%;
+    width: 100%;
+    border-top:2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 60px;
+    border-bottom: 2px solid black
+}
+
+#work1{
+    width: 35%;
+    height: 100%;
+    display: flex;
+    border-right: 2px solid black;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+#work1 h3{
+    font-size: 2vw;
+    font-weight: 550;
+}
+
+#work i{
+    font-size: 30px;
+}
+
+#work2{
+    width:75%;
+    height: 100%;
+    padding: 0px 60px;
+}
+
+.work2-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 35px 0;
+    
+}
+.work2-part:nth-child(1){
+    border-bottom: 2px solid black;
+}
+
+.work2-part .elem{
+    width: 50%;
+    height: 100%;
+}
+
+.work2-part .elem:nth-child(1){
+    border-right: 2px solid black;
+    padding-right: 50px ;
+}
+
+.work2-part .elem:nth-child(2){
+    padding-left: 50px;
+}
+ 
+.work2-part .elem h4{
+    font-size: 3vw;
+
+}
+
+.work2-part .elem p{
+    font-size: 1.05vw;
+    color: rgb(49, 49, 49);
+}
+
+#projects{
+    height: 65%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+
+#projects h1{
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    
+}
+
+
+
+
+footer {
+    width: 100%;
+    height: 12%;
+    background-color: #333;  
+    color: #fff;  
+    padding: 20px;  
+    text-align: center;  
+    font-family: Arial, sans-serif; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ 

@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Golory';
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#card{
+    padding: 20px;
+    height: 500px;
+    width: 350px;
+    background-color: black;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+
+#item{
+    color: rgb(53, 248, 53);
+}
