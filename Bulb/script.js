@@ -42,5 +42,4 @@ btn.addEventListener("click", function(){
     }
 });
 
-
-//? Multiple envents
+ 
